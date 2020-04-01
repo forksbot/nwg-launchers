@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+cd grid
+sudo make uninstall
+cd ../bar
+sudo make uninstall
+cd ../dmenu
+sudo make uninstall

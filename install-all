@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+cd grid
+sudo make clean install
+cd ../bar
+sudo make clean install
+cd ../dmenu
+sudo make clean install
